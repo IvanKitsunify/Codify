@@ -141,3 +141,26 @@
 # print(f"Максимальный  число: {max_number}")
 
 #endregion
+
+#region Task 8
+
+# Краткое описание: Найти и вывести минимальный элемент в заданном списке.
+
+# Инструкция: Напишите программу с помощью while, которая принимает список чисел и возвращает максимальное значение в этом списке. Без использования функции max
+
+# user_input = input("Введите числа через запятую: ")
+# numbers = [int(item.strip()) for item in user_input.split(",")]
+
+# max_number = numbers[0]
+# i = 0
+
+# while i < len(numbers):
+#     if numbers[i] > max_number:  
+#         max_number = numbers[i]
+#         print(i)
+#     i += 1
+
+# print(f"Максимальный  число: {max_number}")
+
+#endregion
+
