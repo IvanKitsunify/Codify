@@ -140,17 +140,17 @@
 # Выведите количество вхождений каждого символа на экран.
 # Запустите программу и введите строку при запросе.
 
-user_input = input("Введите строку: ")
-char_count = {}
+# user_input = input("Введите строку: ")
+# char_count = {}
 
-for char in user_input:
-    if char in char_count:
-        char_count[char] += 1
-    else:
-        char_count[char] = 1
+# for char in user_input:
+#     if char in char_count:
+#         char_count[char] += 1
+#     else:
+#         char_count[char] = 1
         
-for char, count in char_count.items():
-    print(f"Символ: {char} - {count}")
+# for char, count in char_count.items():
+#     print(f"Символ: {char} - {count}")
 
 
 #endregion
